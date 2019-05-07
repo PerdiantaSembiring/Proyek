@@ -13,21 +13,21 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/circleView"
+        android:layout_width="300dp"
+        android:layout_height="161dp"
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/_8sdp"
-        android:src="@drawable/profile"
-        android:id="@+id/circleView"/>
+        android:src="@drawable/capture" />
 
     <TextView
         android:id="@+id/profile_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="18dp"
-        android:textSize="16dp"
-        android:text="Joy Grace"
         android:layout_gravity="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:paddingTop="18dp"
+        android:text="Perdi Calvin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
 
 </LinearLayout>

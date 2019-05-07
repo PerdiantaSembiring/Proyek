@@ -105,7 +105,7 @@ public class BusinessFragment extends Fragment {
 
     private void initiatePhoneCall(){
         Intent callUsIntent = new Intent(Intent.ACTION_CALL);
-        callUsIntent.setData(Uri.parse("tel:" + "0720177156"));
+        callUsIntent.setData(Uri.parse("tel:" + "08126074104"));
         startActivity(callUsIntent);
     }
 

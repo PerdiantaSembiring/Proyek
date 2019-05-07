@@ -72,8 +72,8 @@ public class CarActivity extends AppCompatActivity {
 
     private List<FeatureObject> getTestDataTwo() {
         List<FeatureObject> testdata = new ArrayList<>();
-        testdata.add(new FeatureObject("Daily Price", "$120"));
-        testdata.add(new FeatureObject("Total Amount", "$140"));
+        testdata.add(new FeatureObject("Daily Price", "Rp 1.200.000"));
+        testdata.add(new FeatureObject("Total Amount", "Rp 1.400.000"));
         return testdata;
     }
 }

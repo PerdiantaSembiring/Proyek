@@ -3,6 +3,10 @@ package com.inducesmile.taxirental.entity;
 
 import java.util.List;
 
+/**
+ * Created by Perdianta on 01/05/2019.
+ */
+
 public class DirectionObject {
 
     private List<RouteObject> routes;

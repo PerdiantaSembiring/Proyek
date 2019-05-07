@@ -14,6 +14,9 @@ import com.inducesmile.taxirental.models.CarListObject;
 
 import java.util.List;
 
+/**
+ * Created by Perdianta on 01/05/2019.
+ */
 
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryViewHolder>{
@@ -39,7 +42,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryViewHolder>{
         CarListObject carListObject = carList.get(position);
         holder.carType.setText(carListObject.getCarName());
         holder.carName.setText(carListObject.getCarName());
-        holder.price.setText("$" + String.valueOf((int)carListObject.getPrice()));
+        holder.price.setText("Rp" + String.valueOf((int)carListObject.getPrice()));
 
         holder.view.setOnClickListener(new View.OnClickListener() {
             @Override

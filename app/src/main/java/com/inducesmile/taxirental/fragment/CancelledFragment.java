@@ -45,10 +45,10 @@ public class CancelledFragment extends Fragment {
 
     public List<ReservationObject> getTestData() {
         List<ReservationObject> mObjects = new ArrayList<ReservationObject>();
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Vildansvagen 20, 24273 Lund, Sweden", "July 30, 2017", "Time: 8:40 am", "$145", ""));
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Vildansvagen 20, 24273 Lund, Sweden", "July 30, 2017", "Time: 8:40 am", "$145", ""));
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Vildansvagen 20, 24273 Lund, Sweden", "July 30, 2017", "Time: 8:40 am", "$145", ""));
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Vildansvagen 20, 24273 Lund, Sweden", "July 30, 2017", "Time: 8:40 am", "$145", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "May 12, 2019", "Time: 8:40 am", "Rp 900.000", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "May 18, 2019", "Time: 8:40 am", "Rp 900.000", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "June 01, 2019", "Time: 8:40 am", "Rp 900.000", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "June 02, 2019", "Time: 8:40 am", "Rp 900.000", ""));
         return mObjects;
     }
 

@@ -12,6 +12,10 @@ import android.widget.TextView;
 
 import com.inducesmile.taxirental.R;
 
+/**
+ * Created by Perdianta on 01/05/2019.
+ */
+
 public class DateBlock extends LinearLayout{
 
     private static final String TAG = DateBlock.class.getSimpleName();

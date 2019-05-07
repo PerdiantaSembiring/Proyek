@@ -35,7 +35,7 @@
                         android:layout_height="200dp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bmw" />
+                        android:src="@drawable/mantap" />
 
                     <TextView
                         android:id="@+id/booking_car_name"

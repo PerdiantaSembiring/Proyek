@@ -13,6 +13,10 @@ import android.view.MenuItem;
 import com.inducesmile.taxirental.fragment.ProfileFragment;
 import com.inducesmile.taxirental.fragment.ReservationFragment;
 
+/**
+ * Created by Perdianta on 01/05/2019.
+ */
+
 public class AccountActivity extends AppCompatActivity {
 
     private static final String TAG = AccountActivity.class.getSimpleName();
