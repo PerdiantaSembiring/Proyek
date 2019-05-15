@@ -74,18 +74,18 @@
                 android:id="@+id/price_per_day"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="$100"
+                android:text="Rp 1000000"
                 android:textColor="@color/colorAccent"
-                android:textStyle="bold"
-                android:textSize="16dp"/>
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/per_day"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Daily"
+                android:text="/hari"
                 android:textColor="@color/colorSecondaryText"
-                android:textSize="11dp"/>
+                android:textSize="11dp" />
 
         </LinearLayout>
 

@@ -62,18 +62,18 @@ public class CarActivity extends AppCompatActivity {
 
     private List<FeatureObject> getTestData() {
         List<FeatureObject> testdata = new ArrayList<>();
-        testdata.add(new FeatureObject("Mileage", "23 km"));
-        testdata.add(new FeatureObject("Fuel Type", "Petrol"));
-        testdata.add(new FeatureObject("Engine", "Automatic"));
-        testdata.add(new FeatureObject("Number of Seats", "7 seaters"));
+        testdata.add(new FeatureObject("Jarak Tempuh", "23 km"));
+        testdata.add(new FeatureObject("Bahan Bakar", "Pertamax"));
+        testdata.add(new FeatureObject("Engine", "Otomatis"));
+        testdata.add(new FeatureObject("Jumlah Kursi", "7 seaters"));
         testdata.add(new FeatureObject("Fuel Economy", "Yes"));
         return testdata;
     }
 
     private List<FeatureObject> getTestDataTwo() {
         List<FeatureObject> testdata = new ArrayList<>();
-        testdata.add(new FeatureObject("Daily Price", "Rp 1.200.000"));
-        testdata.add(new FeatureObject("Total Amount", "Rp 1.400.000"));
+        testdata.add(new FeatureObject("Daily Price", "Rp 1.000.000"));
+        testdata.add(new FeatureObject("Total Amount", "Rp 1.000.000"));
         return testdata;
     }
 }

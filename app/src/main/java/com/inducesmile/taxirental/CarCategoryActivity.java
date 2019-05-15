@@ -48,9 +48,9 @@ public class CarCategoryActivity extends AppCompatActivity {
     private List<CarListObject> getTestData() {
         List<CarListObject> testData = new ArrayList<>();
         testData.add(new CarListObject(1, "Camry", "", "", "", "", "", "", 1000000));
-        testData.add(new CarListObject(1, "Golf", "", "", "", "", "", "", 1500000));
-        testData.add(new CarListObject(1, "Passat", "", "", "", "", "", "", 1200000));
-        testData.add(new CarListObject(1, "Yaris", "", "", "", "", "", "", 1300000));
+        testData.add(new CarListObject(1, "Golf", "", "", "", "", "", "", 1000000));
+        testData.add(new CarListObject(1, "Passat", "", "", "", "", "", "", 1000000));
+        testData.add(new CarListObject(1, "Yaris", "", "", "", "", "", "", 1000000));
         testData.add(new CarListObject(1, "Benz", "", "", "", "", "", "", 2000000));
         return testData;
     }

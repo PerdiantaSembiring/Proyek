@@ -25,7 +25,7 @@
             android:id="@+id/business_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="INDUCE CAR RENTAL"
+            android:text="JM RENTAL"
             android:textColor="@color/colorBlack"
             android:textSize="13dp" />
 
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Nygatan 20 27234 Lund, Sweden"
+            android:text="Margonda, Depok, Jawa Barat"
             android:textColor="@color/colorSecondaryText"
             android:textSize="11dp" />
 
@@ -74,7 +74,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Name"
+                            android:text="Nama"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
 
@@ -83,7 +83,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="Induce Car Rental"
+                            android:text="JM Rental"
                             android:textColor="@color/colorSecondaryText"
                             android:textSize="12dp" />
 
@@ -92,7 +92,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="24dp"
-                            android:text="Busines Description"
+                            android:text="Usaha Bisnis Rental Mobil Mewah"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
 
@@ -101,7 +101,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="We specialize in real time car rental around the world. We will have serve customers around the world"
+                            android:text="Mobil Mewah dan Harga terjangkau"
                             android:textColor="@color/colorSecondaryText"
                             android:textSize="12dp" />
 
@@ -127,7 +127,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Email Address"
+                            android:text="Alamat Email"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
 
@@ -136,7 +136,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="info@inducecar@yahoo.com"
+                            android:text="jmrental@gmail.com"
                             android:textColor="@color/colorSecondaryText"
                             android:textSize="12dp" />
 
@@ -145,7 +145,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="24dp"
-                            android:text="Phone Number"
+                            android:text="Nomor Telepon"
                             android:textColor="@color/colorBlack"
                             android:textSize="12dp" />
 
@@ -154,7 +154,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="6dp"
-                            android:text="073838382"
+                            android:text="08126074104"
                             android:textColor="@color/colorSecondaryText"
                             android:textSize="12dp" />
 
@@ -181,23 +181,23 @@
                 android:id="@+id/contact_us"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:padding="12dp"
-                android:background="@color/colorAccent"
-                android:textColor="@color/colorWhite"
                 android:layout_marginRight="2dp"
-                android:text="Contact Us"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:padding="12dp"
+                android:text="Hubungi Kami"
+                android:textColor="@color/colorWhite" />
 
             <Button
                 android:id="@+id/call_us"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:padding="12dp"
-                android:background="@color/colorAccent"
-                android:textColor="@color/colorWhite"
                 android:layout_marginLeft="2dp"
-                android:text="Call Us"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:padding="12dp"
+                android:text="Hubungi Kami"
+                android:textColor="@color/colorWhite" />
 
         </LinearLayout>
 

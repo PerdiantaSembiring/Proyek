@@ -11,20 +11,20 @@
         android:id="@+id/day_in_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="22"
         android:layout_gravity="center"
         android:padding="12dp"
-        android:textStyle="bold"
+        android:text="28"
         android:textColor="@color/colorAccent"
-        android:textSize="36dp"/>
+        android:textSize="36dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/month_in_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sunday, November"
-        android:textColor="@color/colorSecondaryText"
         android:layout_gravity="center"
+        android:text="Selasa, Mei"
+        android:textColor="@color/colorSecondaryText"
         android:textSize="10dp" />
 
     <View
@@ -38,9 +38,9 @@
         android:id="@+id/time_in_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Time: 12:30"
-        android:textColor="@color/colorSecondaryText"
         android:layout_gravity="center"
+        android:text="Waktu: 12:30"
+        android:textColor="@color/colorSecondaryText"
         android:textSize="13dp" />
 
 

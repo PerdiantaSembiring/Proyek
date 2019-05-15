@@ -44,10 +44,10 @@ public class UpcomingFragment extends Fragment {
 
     public List<ReservationObject> getTestData() {
         List<ReservationObject> mObjects = new ArrayList<ReservationObject>();
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "July 01, 2019", "Time: 8:40 am", "Rp 900.000", ""));
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "July 01, 2019", "Time: 8:40 am", "Rp 900.000", ""));
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "July 01, 2019", "Time: 8:40 am", "Rp 900.000", ""));
-        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "July 01, 2019", "Time: 8:40 am", "Rp 900.000", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "28 Mei 2019", "Time: 12:30 am", "Rp 1.000.000", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "28 Mei 2019", "Time: 12:30 am", "Rp 1.000.000", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "28 Mei 2019", "Time: 12:30 am", "Rp 1.000.000", ""));
+        mObjects.add(new ReservationObject(1, "Porche Fx", "Margonda, Depok, Jawa Barat", "28 Mei 2019", "Time: 12:30 am", "Rp 1.000.000", ""));
         return mObjects;
     }
 }
