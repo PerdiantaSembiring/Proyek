@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.inducesmile.taxirental.models.Car;
 import com.inducesmile.taxirental.models.UserObject;
 import com.inducesmile.taxirental.network.GsonRequest;
 import com.inducesmile.taxirental.utils.Constants;
@@ -23,11 +24,12 @@ import com.inducesmile.taxirental.utils.Helper;
 
 import org.apache.commons.validator.routines.EmailValidator;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class SignInActivity extends AppCompatActivity {
-
+    private ArrayList<Car> listItem = new ArrayList<>();
     private static final String TAG = SignInActivity.class.getSimpleName();
 
     private EditText email, password;
@@ -36,6 +38,7 @@ public class SignInActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);

@@ -78,12 +78,12 @@ public class SearchCarFragment extends Fragment {
 
     private List<SearchObject> getTestData() {
         List<SearchObject> data = new ArrayList<>();
-        data.add(new SearchObject("", "VW GOLF", "320 $", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
-        data.add(new SearchObject("", "VW GOLF", "320 $", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
-        data.add(new SearchObject("", "VW GOLF", "320 $", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
-        data.add(new SearchObject("", "VW GOLF", "320 $", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
-        data.add(new SearchObject("", "VW GOLF", "320 $", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
-        data.add(new SearchObject("", "VW GOLF", "320 $", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
+        data.add(new SearchObject("", "VW GOLF", "Rp 1.000.000", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
+        data.add(new SearchObject("", "VW GOLF", "Rp 1.000.000", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
+        data.add(new SearchObject("", "VW GOLF", "Rp 1.000.000", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
+        data.add(new SearchObject("", "VW GOLF", "Rp 1.000.000", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
+        data.add(new SearchObject("", "VW GOLF", "Rp 1.000.000", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
+        data.add(new SearchObject("", "VW GOLF", "Rp 1.000.000", "Automatic, 5-seater, Petrol, Wifi", "Daily"));
         return data;
     }
 

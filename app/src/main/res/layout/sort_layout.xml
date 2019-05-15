@@ -23,18 +23,18 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="11dp"
+            android:text="Min Harga (0)"
             android:textColor="@color/colorSecondaryText"
-            android:text="Min Price (0)"/>
+            android:textSize="11dp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="11dp"
             android:gravity="right"
+            android:text="Max harga (2000000)"
             android:textColor="@color/colorSecondaryText"
-            android:text="Max Price (500)"/>
+            android:textSize="11dp" />
 
     </LinearLayout>
 

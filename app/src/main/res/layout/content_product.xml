@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:padding="@dimen/_10sdp"
-            android:text="Car Features"
+            android:text="Fitur Mobil"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/_14sdp"
             android:textStyle="bold" />
@@ -87,7 +87,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mileage"
+                android:text="Jarak Tempuh"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -111,7 +111,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fuel Type"
+                android:text="Bahan Bakar"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -120,7 +120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:text="Petrol"
+                android:text="Pertamax ++"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -135,7 +135,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Engine"
+                android:text="Mesin"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -144,7 +144,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:text="Automatic"
+                android:text="Otomatis"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -159,7 +159,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Number of Seats"
+                android:text="Jumlah Penumpang"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -168,7 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:text="7 seaters"
+                android:text="5"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -231,7 +231,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:padding="@dimen/_10sdp"
-        android:text="Booking Price"
+        android:text="Harga Booking"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/_14sdp"
         android:textStyle="bold" />
@@ -251,7 +251,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hourly Price"
+                android:text="per/ jam"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -260,7 +260,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:text="$30:00"
+                android:text="Rp 50000"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -275,7 +275,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Daily Price"
+                android:text="per/ hari"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -284,7 +284,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="right"
-                android:text="$300:00"
+                android:text="Rp 1000000"
                 android:textColor="@color/colorSecondaryText"
                 android:textSize="@dimen/_12sdp" />
 
@@ -299,7 +299,7 @@
         android:layout_marginTop="@dimen/_20sdp"
         android:background="@color/colorAccent"
         android:padding="@dimen/_16sdp"
-        android:text="Continue Booking"
+        android:text="Lanjutkan Pemesanan"
         android:textColor="@color/colorWhite" />
 
 </LinearLayout>
